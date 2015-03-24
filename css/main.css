@@ -1,0 +1,305 @@
+body
+{
+	background-color: #F0FFFF;
+}
+
+div#heading
+{
+	bsorder: 1px solid green;
+	background-color: #F0F8FF ;
+	margin: -8px;
+	padding: 8px;
+	padding-bottom: 0px;
+	text-align: center;
+	color: brown;
+	-moz-box-shadow: -5px 3px 10px #32a;
+    -webkit-box-shadow: -5px 3px 10px #32a;
+     box-shadow: -5px 3px 10px #3 	#c2c;
+     border-bottom-left-radius: 6px;
+     border-bottom-right-radius: px;
+}
+
+div#heading>h1>span
+{
+	color: green;
+}
+
+div#heading>h1>span:last-of-type
+{
+	color: blue;
+}
+
+div#slideshow
+{
+	text-align: center;
+}
+
+div#main
+{
+	margin-left: 5%; margin-right: 5%;
+}
+
+p#welcome
+{
+	font-size: 28px;
+	margin-left: 10%; margin-right: 10%;
+	color: green;
+	line-height: 35px;
+	box-shadow: 2px 2px 2px 2px #D0F8CF;
+}
+
+
+/*------------------------------------*/
+/*------------SIGN IN-----------------*/
+/*------------------------------------*/
+
+
+div#login
+{
+	text-align: center;
+	font-size: 30px;
+	-moz-box-shadow: -5px 0 10px #000;
+    -webkit-box-shadow: -5px 0 10px #000;
+     box-shadow: -5px 0 10px #000;
+     color: #001;
+     margin-left: 7em; margin-right: 7em;
+
+}
+
+div#signup
+{
+	text-align: center;
+	font-size: 30px;
+	-moz-box-shadow: -5px 3px 10px #12a;
+    -webkit-box-shadow: -5px 3px 10px #02a;
+     box-shadow: -5px 3px 10px #02c;
+     color: #001;
+     margin-left: 6em; margin-right: 6em;
+}
+
+div#login input, div#signup input
+{
+	border: none;
+	-moz-box-shadow: -5px 0 10px #000;
+    -webkit-box-shadow: -5px 0 10px #000;
+     box-shadow: -5px 0 10px #000;
+     color: rgb(23,44,123);
+     background-color: transparent;
+}
+
+input#login, input#signup
+{
+	line-height: ;
+	margin-top: 4px;
+	padding: 1em;
+	border-radius: 7px;
+}
+/*------------------------------------*/
+/*----------SIGN IN END---------------*/
+/*------------------------------------*/
+
+
+/*------------------------------------*/
+/*----------JSSOR SLIDER--------------*/
+/*------------------------------------*/
+
+@media only screen and (max-width: 980px) {
+                    .qr_code {
+                        display: none;
+                    }
+                }
+
+
+            /* jssor slider bullet navigator skin 21 css */
+            /*
+            .jssorb21 div           (normal)
+            .jssorb21 div:hover     (normal mouseover)
+            .jssorb21 .av           (active)
+            .jssorb21 .av:hover     (active mouseover)
+            .jssorb21 .dn           (mousedown)
+            */
+            .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
+            {
+                background: url(../img/b21.png) no-repeat;
+                overflow:hidden;
+                cursor: pointer;
+            }
+            .jssorb21 div { background-position: -5px -5px; }
+            .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+            .jssorb21 .av { background-position: -65px -5px; }
+            .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+
+
+
+            
+            /* jssor slider arrow navigator skin 21 css */
+            /*
+            .jssora21l              (normal)
+            .jssora21r              (normal)
+            .jssora21l:hover        (normal mouseover)
+            .jssora21r:hover        (normal mouseover)
+            .jssora21ldn            (mousedown)
+            .jssora21rdn            (mousedown)
+            */
+            .jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(../img/a21.png) center center no-repeat;
+                overflow: hidden;
+            }
+            .jssora21l { background-position: -3px -33px; }
+            .jssora21r { background-position: -63px -33px; }
+            .jssora21l:hover { background-position: -123px -33px; }
+            .jssora21r:hover { background-position: -183px -33px; }
+            .jssora21ldn { background-position: -243px -33px; }
+            .jssora21rdn { background-position: -303px -33px; }
+
+
+/*------------------------------------*/
+/*------------------------------------*/
+/*------------------------------------*/
+
+
+
+/*------------------------------------*/
+/*--------ERROR HANDLING -------------*/
+/*------------------------------------*/
+
+span[id^="err"]
+{
+    color: rosybrown;;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/*------------------------------------*/
+/*------------------------------------*/
+/*------------------------------------*/
+
+
+/*------------------------------------*/
+/*--------POST FORMATTING-------------*/
+/*------------------------------------*/
+
+div.posts tr td
+{
+    width: 200px;
+}
+
+tr 
+{
+    width: 30px;
+}
+
+#cOut
+{
+    border-radius: 2em;
+}
+
+#cments
+{
+    font-size: 23px;
+    height: 450px;
+    overflow: auto;
+    width: 100%;
+}
+.picture
+{
+    wborder: 3px dashed green;
+    
+    width: 700px;
+    vertical-align: inherit;
+}
+.picture img
+{
+    -moz-box-shadow: -5px 3px 10px #001;
+    -webkit-box-shadow: -5px 3px 10px #001;
+     box-shadow: 5px -7px 20px #001;
+     color: #001;
+     margin-top: 4px;
+     margin-bottom: 4px;
+}
+
+span.post_title
+{
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.main_home
+{
+    background-color: #FAF8FF;
+    -webkit-box-shadow: -5px 3px 10px #001;
+     box-shadow: 2px -2px 20px #003;
+     color: #001;
+     margin-top: 4px;
+     border-radius: 5px;
+     margin-top: 2em;
+}
+/*------------------------------------*/
+/*------------------------------------*/
+/*------------------------------------*/
+
+
+/*------------------------------------*/
+/*------------------------------------*/
+/*------------------------------------*/
+
+div#top_nav
+{
+    color: green;
+    text-align: center;     
+}
+div#top_nav>span>a
+{
+    display: inline;
+    color: green;
+    font-size: 23px;
+    padding: 80px;
+    line-height: 34px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line
+}
+
+
+/*------------------------------------*/
+/*------------------------------------*/
+/*------------------------------------*/
+
+
+div#add_post
+{
+    padding: 10px 0 10px 0;
+}
+
+#add_post input, #add_post textarea
+{
+    border: none;
+    background: transparent;
+    -moz-box-shadow: -5px 3px 10px #a2a;
+    -webkit-box-shadow: -5px 3px 10px #020;
+     box-shadow: -5px 3px 10px #3   #12c;
+    border-radius: 4px;
+}
+
+footer
+{
+    line-height: 4em;
+    font-size: 1.5em;
+    margin-top: 2em;
+    text-align: center;
+    background-color: #1E90FF;
+    padding: ;
+}
+
+footer div
+{
+     -moz-box-shadow: -5px 3px 10px #a2a;
+    -webkit-box-shadow: -5px 3px 10px #020;
+     box-shadow: -5px 3px 10px #3   #12c;
+}
